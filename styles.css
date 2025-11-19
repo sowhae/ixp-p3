@@ -173,6 +173,7 @@ html {
     line-height: 1;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .medium-text {
@@ -187,8 +188,9 @@ html {
 .centered-text {
     position: absolute;
     top: 50%;
-    left: 13%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .question-mark {
@@ -523,7 +525,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.05);
+    transform: scale(0.98);
 }
 
 /* Frame 5C inverted text */
@@ -537,8 +539,9 @@ button:focus {
     font-weight: 500;
     color: #e3ded7;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1;
     z-index: 3;
+    white-space: nowrap;
 }
 
 /* Lip center for frame 7 */
