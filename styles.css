@@ -533,7 +533,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.031);
+    transform: scale(1.033);
 }
 
 /* Frame 5C inverted text */
@@ -559,9 +559,9 @@ button:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    width: 0.075%;
-    max-width: 1.5px;
-    min-width: 1px;
+    width: 0.03%;
+    max-width: 0.7px;
+    min-width: 0.5px;
 }
 
 .lip-image {
