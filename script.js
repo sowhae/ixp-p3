@@ -46,7 +46,7 @@ function goToFrame(targetFrameId) {
             // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
-                cupContainer.style.transform = 'translateX(-50%)';
+                cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
@@ -67,7 +67,7 @@ function goToFrame(targetFrameId) {
             // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
-                cupContainer.style.transform = 'translateX(-50%)';
+                cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
@@ -88,7 +88,7 @@ function goToFrame(targetFrameId) {
             // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
-                cupContainer.style.transform = 'translateX(-50%)';
+                cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
