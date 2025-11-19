@@ -26,13 +26,8 @@ function goToFrame(targetFrameId) {
     currentFrame = targetFrameId;
     
     // Auto-transition logic with reading delays
-    
-    // Frame 1: Opening image → Frame 1.5 (4 seconds)
-    if (targetFrameId === 'frame-1') {
-        setTimeout(() => {
-            goToFrame('frame-1-5');
-        }, 4000);
-    }
+
+    // Frame 1: Opening image → Frame 1.5 (CLICK TO ADVANCE - no auto-transition)
     
     // Frame 1.5: Question text → Frame 2 (5 seconds to read)
     if (targetFrameId === 'frame-1-5') {
