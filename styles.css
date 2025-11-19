@@ -559,9 +559,9 @@ button:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    width: 0.15%;
-    max-width: 3px;
-    min-width: 2px;
+    width: 0.075%;
+    max-width: 1.5px;
+    min-width: 1px;
 }
 
 .lip-image {
