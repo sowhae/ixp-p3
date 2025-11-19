@@ -526,7 +526,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
 
 /* Frame 5C inverted text */
