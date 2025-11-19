@@ -142,19 +142,12 @@ function goToFrame(targetFrameId) {
     if (targetFrameId === 'frame-5a') {
         const scrollContainer = document.getElementById('scroll-container-5');
         if (scrollContainer) {
-            // Reset scroll position first - remove class and reset transform
+            // Reset scroll position first
             scrollContainer.classList.remove('scrolled');
-            scrollContainer.style.transition = 'none';
-            scrollContainer.style.transform = 'translateY(0)';
-
-            // Force reflow to ensure reset is applied
-            scrollContainer.offsetHeight;
-
-            // Restore transition and start scroll after brief delay
+            // Start scroll after brief delay
             setTimeout(() => {
-                scrollContainer.style.transition = 'transform 5s ease-in-out';
                 scrollContainer.classList.add('scrolled');
-            }, 500);
+            }, 1000);
             // After scroll completes (5s scroll + 2s pause on 5B), go to 5C
             setTimeout(() => {
                 goToFrame('frame-5c');
