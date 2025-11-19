@@ -74,7 +74,7 @@ html {
 }
 
 .bg-image.frame-2-bg {
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .bg-image.frame-7-bg {
@@ -183,7 +183,6 @@ html {
     color: #3f2237;
     line-height: 1;
     margin: 0;
-    text-align: right;
 }
 
 .centered-text {
@@ -526,7 +525,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.02);
+    transform: scale(1.08);
 }
 
 /* Frame 5C inverted text */
