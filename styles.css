@@ -133,7 +133,7 @@ html {
 
 .cup-container-bottom {
     position: absolute;
-    bottom: -15%;
+    bottom: -20%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -178,7 +178,7 @@ html {
 
 .medium-text {
     font-family: 'Space Mono', monospace;
-    font-size: clamp(40px, 6vw, 115px);
+    font-size: clamp(50px, 7.5vw, 140px);
     font-weight: 500;
     color: #3f2237;
     line-height: 1;
@@ -393,6 +393,7 @@ html {
     text-align: right;
     align-items: flex-end;
     margin-left: auto;
+    white-space: nowrap;
 }
 
 .choice-btn-large:hover {
@@ -525,7 +526,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.08);
+    transform: scale(1.04);
 }
 
 /* Frame 5C inverted text */
@@ -551,9 +552,9 @@ button:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    width: 0.9%;
-    max-width: 14px;
-    min-width: 9px;
+    width: 0.3%;
+    max-width: 6px;
+    min-width: 3px;
 }
 
 .lip-image {
