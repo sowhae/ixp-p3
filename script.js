@@ -29,59 +29,72 @@ function goToFrame(targetFrameId) {
 
     // Frame 1: Opening image → Frame 1.5 (CLICK TO ADVANCE - no auto-transition)
     
-    // Frame 1.5: Question text → Frame 2 (5 seconds to read)
+    // Frame 1.5: Question text → Frame 2 (3 seconds to read)
     if (targetFrameId === 'frame-1-5') {
         setTimeout(() => {
             goToFrame('frame-2');
-        }, 5000);
+        }, 3000);
     }
     
     // Frame 2: Multiple choice - wait for user selection (no auto-advance)
     
-    // Frame 3A: Cup centered, then slide down to 4A
+    // Frame 3A: Cup centered, then slide down with text appearing
     if (targetFrameId === 'frame-3a') {
-        const cupImage = document.getElementById('cup-3a');
-        if (cupImage) {
-            // Wait 1.5 seconds, then slide cup down over 2 seconds
+        const cupContainer = document.getElementById('cup-container-3a');
+        const text = document.getElementById('text-3a');
+        if (cupContainer && text) {
+            // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
-                cupImage.parentElement.style.transition = 'all 2s ease-out';
-                cupImage.parentElement.style.bottom = '-35%';
-                cupImage.parentElement.style.top = 'auto';
-            }, 1500);
-            // After slide completes, transition to 4A
+                cupContainer.style.transition = 'all 2.5s ease-out';
+                cupContainer.style.top = 'auto';
+                cupContainer.style.bottom = '-35%';
+                text.style.transition = 'opacity 2s ease-in';
+                text.style.opacity = '1';
+            }, 1000);
+            // After animation completes, transition to 4A
             setTimeout(() => {
                 goToFrame('frame-4a');
-            }, 4000);
+            }, 4500);
         }
     }
     
-    // Frame 3B: Cup centered, then slide down to 4B
+    // Frame 3B: Cup centered, then slide down with text appearing
     if (targetFrameId === 'frame-3b') {
-        const cupImage = document.getElementById('cup-3b');
-        if (cupImage) {
+        const cupContainer = document.getElementById('cup-container-3b');
+        const text = document.getElementById('text-3b');
+        if (cupContainer && text) {
+            // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
-                cupImage.parentElement.style.transition = 'all 2s ease-out';
-                cupImage.parentElement.style.bottom = '-35%';
-                cupImage.parentElement.style.top = 'auto';
-            }, 1500);
+                cupContainer.style.transition = 'all 2.5s ease-out';
+                cupContainer.style.top = 'auto';
+                cupContainer.style.bottom = '-35%';
+                text.style.transition = 'opacity 2s ease-in';
+                text.style.opacity = '1';
+            }, 1000);
+            // After animation completes, transition to 4B
             setTimeout(() => {
                 goToFrame('frame-4b');
-            }, 4000);
+            }, 4500);
         }
     }
     
-    // Frame 3C: Cup centered, then slide down to 4C
+    // Frame 3C: Cup centered, then slide down with text appearing
     if (targetFrameId === 'frame-3c') {
-        const cupImage = document.getElementById('cup-3c');
-        if (cupImage) {
+        const cupContainer = document.getElementById('cup-container-3c');
+        const text = document.getElementById('text-3c');
+        if (cupContainer && text) {
+            // Wait 1 second, then slide cup down and fade in text simultaneously
             setTimeout(() => {
-                cupImage.parentElement.style.transition = 'all 2s ease-out';
-                cupImage.parentElement.style.bottom = '-35%';
-                cupImage.parentElement.style.top = 'auto';
-            }, 1500);
+                cupContainer.style.transition = 'all 2.5s ease-out';
+                cupContainer.style.top = 'auto';
+                cupContainer.style.bottom = '-35%';
+                text.style.transition = 'opacity 2s ease-in';
+                text.style.opacity = '1';
+            }, 1000);
+            // After animation completes, transition to 4C
             setTimeout(() => {
                 goToFrame('frame-4c');
-            }, 4000);
+            }, 4500);
         }
     }
     
