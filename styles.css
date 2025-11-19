@@ -400,8 +400,12 @@ html {
 }
 
 .choice-btn-large:hover {
-    background-color: rgba(63, 34, 55, 0.1);
+    background-color: rgba(63, 34, 55, 0.15);
     transform: scale(1.02);
+}
+
+.choice-btn-large:focus {
+    outline: none;
 }
 
 /* Final Responses */
@@ -529,7 +533,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.028);
+    transform: scale(1.031);
 }
 
 /* Frame 5C inverted text */
