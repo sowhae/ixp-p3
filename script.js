@@ -47,7 +47,7 @@ function goToFrame(targetFrameId) {
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.top = 'auto';
-                cupContainer.style.bottom = '-20%';
+                cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
                 text.style.opacity = '1';
             }, 1000);
@@ -67,7 +67,7 @@ function goToFrame(targetFrameId) {
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.top = 'auto';
-                cupContainer.style.bottom = '-20%';
+                cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
                 text.style.opacity = '1';
             }, 1000);
@@ -87,7 +87,7 @@ function goToFrame(targetFrameId) {
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.top = 'auto';
-                cupContainer.style.bottom = '-20%';
+                cupContainer.style.bottom = '-30%';
                 text.style.transition = 'opacity 2.5s ease-in';
                 text.style.opacity = '1';
             }, 1000);
