@@ -79,7 +79,7 @@ function goToFrame(targetFrameId) {
                 text.style.opacity = '1';
                 text.style.top = '18%';
             }, 1000);
-            // After animation completes, transition directly to 5A (skip 4B)
+            // After animation completes, transition to 5A
             setTimeout(() => {
                 goToFrame('frame-5a');
             }, 6000);
