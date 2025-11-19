@@ -43,14 +43,17 @@ function goToFrame(targetFrameId) {
         const cupContainer = document.getElementById('cup-container-3a');
         const text = document.getElementById('text-3a');
         if (cupContainer && text) {
-            // Wait 1 second, then slide cup down and fade in text simultaneously
+            // Set initial text position
+            text.style.top = '5%';
+            // Wait 1 second, then slide cup down and slide text down with fade in
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
-                text.style.transition = 'opacity 2.5s ease-in';
+                text.style.transition = 'all 2.5s ease-out';
                 text.style.opacity = '1';
+                text.style.top = '18%';
             }, 1000);
             // After animation completes, transition directly to 5A (skip 4A)
             setTimeout(() => {
@@ -64,14 +67,17 @@ function goToFrame(targetFrameId) {
         const cupContainer = document.getElementById('cup-container-3b');
         const text = document.getElementById('text-3b');
         if (cupContainer && text) {
-            // Wait 1 second, then slide cup down and fade in text simultaneously
+            // Set initial text position
+            text.style.top = '5%';
+            // Wait 1 second, then slide cup down and slide text down with fade in
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
-                text.style.transition = 'opacity 2.5s ease-in';
+                text.style.transition = 'all 2.5s ease-out';
                 text.style.opacity = '1';
+                text.style.top = '18%';
             }, 1000);
             // After animation completes, transition directly to 5A (skip 4B)
             setTimeout(() => {
@@ -85,14 +91,17 @@ function goToFrame(targetFrameId) {
         const cupContainer = document.getElementById('cup-container-3c');
         const text = document.getElementById('text-3c');
         if (cupContainer && text) {
-            // Wait 1 second, then slide cup down and fade in text simultaneously
+            // Set initial text position
+            text.style.top = '5%';
+            // Wait 1 second, then slide cup down and slide text down with fade in
             setTimeout(() => {
                 cupContainer.style.transition = 'all 3s ease-out';
                 cupContainer.style.transform = 'translateX(-50%) scale(1.3)';
                 cupContainer.style.top = 'auto';
                 cupContainer.style.bottom = '-30%';
-                text.style.transition = 'opacity 2.5s ease-in';
+                text.style.transition = 'all 2.5s ease-out';
                 text.style.opacity = '1';
+                text.style.top = '18%';
             }, 1000);
             // After animation completes, transition directly to 4.5 (skip 4C)
             setTimeout(() => {
