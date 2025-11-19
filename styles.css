@@ -133,7 +133,7 @@ html {
 
 .cup-container-bottom {
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -393,7 +393,6 @@ html {
     text-align: right;
     align-items: flex-end;
     margin-left: auto;
-    white-space: nowrap;
 }
 
 .choice-btn-large:hover {
@@ -526,7 +525,7 @@ button:focus {
 }
 
 .scroll-section-full:nth-child(2) .scroll-bg-full {
-    transform: scale(1.02);
+    transform: scale(1.025);
 }
 
 /* Frame 5C inverted text */
