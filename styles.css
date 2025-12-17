@@ -75,7 +75,8 @@ html {
 }
 
 .bg-image.frame-2-bg {
-    transform: translate(-50%, -50%) scale(0.85);
+    left: 48%;
+    transform: translate(-50%, -50%) scale(0.75);
 }
 
 .bg-image.frame-7-bg {
@@ -98,7 +99,7 @@ html {
 .bg-image.frame-7-5b-bg2 {
     top: 49%;
     left: 51%;
-    transform: translate(-50%, -50%) scale(0.75);
+    transform: translate(-50%, -50%) scale(1.0);
 }
 
 .background-color {
