@@ -273,13 +273,21 @@ document.addEventListener('touchend', function(event) {
 // Preload images for smoother transitions
 function preloadImages() {
     const images = [
-        'https://www.figma.com/api/mcp/asset/b0b62627-4d9c-44cf-a160-8b9efcc98a0c',
-        'https://www.figma.com/api/mcp/asset/25af6e34-79d3-40b5-8dee-001d8d96e817',
-        'https://www.figma.com/api/mcp/asset/2581de70-5fda-43de-a85f-ee147139f876',
-        'https://www.figma.com/api/mcp/asset/b5b40a2c-33ad-4c57-bd03-e082639c1a21',
-        'https://www.figma.com/api/mcp/asset/95d1ae58-5e3d-4018-8ece-a9bfa4f9477e'
+        'Figma/1.png',
+        'Figma/2.png',
+        'Figma/3A.png',
+        'Figma/3B.png',
+        'Figma/3C.png',
+        'Figma/4A.png',
+        'Figma/4B.png',
+        'Figma/4C.png',
+        'Figma/5A.png',
+        'Figma/5B.png',
+        'Figma/7.png',
+        'Figma/7.5A.png',
+        'Figma/7.5B.png'
     ];
-    
+
     images.forEach(src => {
         const img = new Image();
         img.src = src;
