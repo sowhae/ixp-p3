@@ -71,7 +71,7 @@ html {
 .bg-image.frame-1-bg {
     left: 47%;
     top: 46%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(1.0);
 }
 
 .bg-image.frame-2-bg {
